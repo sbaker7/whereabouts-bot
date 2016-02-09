@@ -1,3 +1,4 @@
+
 # Whereabouts Bot
 
 Whereaboutsbot is a [Slack](http://slack.com) bot for responding to team members who may be staying home (either working from home or sick), or running late. It listens to specific Slack channel(s) and parses what users say, picking up anything that may be related to someone in the team staying home.
@@ -25,11 +26,10 @@ States expire at midnight every day automatically, ready for the next workday.
 # Getting started
 
 ## Installing
-I
+
 1. Begin by installing Node.js on your system. You can download Node.js [here](http://nodejs.org/).
 2. Install dependencies by running `npm install`
-4. Install God by running `gem install god'.
-5. Start the server by running `god -c whereabouts.god`
+3. Start the server by running `npm start`.
 
 ## Set up config variables
 
