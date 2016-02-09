@@ -28,3 +28,4 @@ node_modules
 
 # Don't read our config
 res/config.json
+*.god
